@@ -1,0 +1,38 @@
+.App {
+  min-height: 100vh;
+}
+
+.actions-bar {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.form-section h2,
+.list-section h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.bug-steps,
+.bug-environment {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.bug-steps ol {
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.bug-steps li {
+  margin-bottom: 0.25rem;
+}
+
+.bug-environment span {
+  margin-left: 0.5rem;
+  color: #666;
+}
